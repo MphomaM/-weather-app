@@ -240,7 +240,7 @@ li {
   color: blue;
 }
 .githubLink {
-  bottom: -500px;
+  bottom: -100px;
   margin: 0 auto;
   position: fixed;
 }
