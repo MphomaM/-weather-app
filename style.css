@@ -241,6 +241,8 @@ li {
 }
 .vanillaWeatherApp {
   border: 5px solid blue;
+  margin: 30px auto;
+  padding: 20px;
 }
 .githubLink {
   bottom: 100px;
