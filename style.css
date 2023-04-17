@@ -239,6 +239,9 @@ li {
   background-color: white;
   color: blue;
 }
+.vanillaWeatherApp {
+  max-width: 600px;
+}
 .githubLink {
   bottom: 100px;
   margin: 0 auto;
