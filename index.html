@@ -19,96 +19,101 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container"></div>
-    <div class="vanillaWeatherApp">
-      <form class="search-form" id="search-form">
-        <input
-          type="search"
-          placeholder="Enter your city"
-          autofocus="on"
-          autocomplete="off"
-          id="city-input"
-          class="area"
-        />
-        <input type="submit" value="Search" class="submitButton" />
-      </form>
-      <button class="currentButton" id="current-city-button">Current</button>
-      <div class="city">
-        <h1 id="city"></h1>
-      </div>
-      <div class="day">
-        <p id="date"></p>
-      </div>
-      <div class="weather">
-        <p id="description"></p>
-      </div>
-      <div class="row">
-        <div class="col numb" id="temperature"></div>
-        <div class="col degr"><a href="#" id="celsius-value">&deg;C |</a></div>
-        <div class="col fara"><a href="#" id="fahrenheit-value">&deg;F</a></div>
-      </div>
-      <div class="col-6">
-        <ul>
-          <li class="humidity">
-            Humidity: <span id="humidity"></span>
-            %
-          </li>
-          <li class="wind">
-            Wind: <span id="wind"></span>
-            km/h
-          </li>
-        </ul>
-      </div>
-      <div class="row">
-        <div class="col-2">Wed</div>
+    <div class="container">
+      <div class="vanillaWeatherApp">
+        <form class="search-form" id="search-form">
+          <input
+            type="search"
+            placeholder="Enter your city"
+            autofocus="on"
+            autocomplete="off"
+            id="city-input"
+            class="area"
+          />
+          <input type="submit" value="Search" class="submitButton" />
+        </form>
+        <button class="currentButton" id="current-city-button">Current</button>
+        <div class="city">
+          <h1 id="city"></h1>
+        </div>
+        <div class="day">
+          <p id="date"></p>
+        </div>
+        <div class="weather">
+          <p id="description"></p>
+        </div>
+        <div class="row">
+          <div class="col numb" id="temperature"></div>
+          <div class="col degr">
+            <a href="#" id="celsius-value">&deg;C |</a>
+          </div>
+          <div class="col fara">
+            <a href="#" id="fahrenheit-value">&deg;F</a>
+          </div>
+        </div>
+        <div class="col-6">
+          <ul>
+            <li class="humidity">
+              Humidity: <span id="humidity"></span>
+              %
+            </li>
+            <li class="wind">
+              Wind: <span id="wind"></span>
+              km/h
+            </li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col-2">Wed</div>
 
-        <div class="col-2">Thu</div>
+          <div class="col-2">Thu</div>
 
-        <div class="col-2">Fri</div>
+          <div class="col-2">Fri</div>
 
-        <div class="col-2">Sat</div>
+          <div class="col-2">Sat</div>
 
-        <div class="col-2">Sun</div>
+          <div class="col-2">Sun</div>
 
-        <div class="col-2">Mon</div>
+          <div class="col-2">Mon</div>
+        </div>
+        <i class="fa-solid fa-cloud-sun cloudy1"></i>
+        <i class="fa-solid fa-sun sunny1"></i>
+        <i class="fa-solid fa-cloud-sun cloudy2"></i>
+        <i class="fa-solid fa-cloud-sun cloudy3"></i>
+        <i class="fa-solid fa-cloud-showers-heavy rain1"></i>
+        <i class="fa-solid fa-cloud-sun cloudy4"></i>
+        <i class="fa-solid fa-cloud-sun cloudy5"></i>
+        <div class="row">
+          <div class="col-6 high1">27&deg;</div>
+          <div class="col-6 low1">16&deg;</div>
+        </div>
+        <div class="row">
+          <div class="col-6 high2">29&deg;</div>
+          <div class="col-6 low2">16&deg;</div>
+        </div>
+        <div class="row">
+          <div class="col-6 high3">28&deg;</div>
+          <div class="col-6 low3">15&deg;</div>
+        </div>
+        <div class="row">
+          <div class="col-6 high4">28&deg;</div>
+          <div class="col-6 low4">16&deg;</div>
+        </div>
+        <div class="row">
+          <div class="col-6 high5">27&deg;</div>
+          <div class="col-6 low5">14&deg;</div>
+        </div>
+        <div class="row">
+          <div class="col-6 high6">27&deg;</div>
+          <div class="col-6 low6">13&deg;</div>
+        </div>
+        <small class="githubLink"
+          ><a href="https://github.com/MphomaM/-weather-app.git" target="_blank"
+            >Open source-code</a
+          >, <em>by Mphoma Matseke</em></small
+        >
+        <script src="script.js"></script>
       </div>
-      <i class="fa-solid fa-cloud-sun cloudy1"></i>
-      <i class="fa-solid fa-sun sunny1"></i>
-      <i class="fa-solid fa-cloud-sun cloudy2"></i>
-      <i class="fa-solid fa-cloud-sun cloudy3"></i>
-      <i class="fa-solid fa-cloud-showers-heavy rain1"></i>
-      <i class="fa-solid fa-cloud-sun cloudy4"></i>
-      <i class="fa-solid fa-cloud-sun cloudy5"></i>
-      <div class="row">
-        <div class="col-6 high1">27&deg;</div>
-        <div class="col-6 low1">16&deg;</div>
-      </div>
-      <div class="row">
-        <div class="col-6 high2">29&deg;</div>
-        <div class="col-6 low2">16&deg;</div>
-      </div>
-      <div class="row">
-        <div class="col-6 high3">28&deg;</div>
-        <div class="col-6 low3">15&deg;</div>
-      </div>
-      <div class="row">
-        <div class="col-6 high4">28&deg;</div>
-        <div class="col-6 low4">16&deg;</div>
-      </div>
-      <div class="row">
-        <div class="col-6 high5">27&deg;</div>
-        <div class="col-6 low5">14&deg;</div>
-      </div>
-      <div class="row">
-        <div class="col-6 high6">27&deg;</div>
-        <div class="col-6 low6">13&deg;</div>
-      </div>
-      <small class="githubLink"
-        ><a href="https://github.com/MphomaM/-weather-app.git" target="_blank"
-          >Open source-code</a
-        >, <em>by Mphoma Matseke</em></small
-      >
-      <script src="script.js"></script>
     </div>
   </body>
 </html>
