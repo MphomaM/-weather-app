@@ -240,7 +240,7 @@ li {
   color: blue;
 }
 .vanillaWeatherApp {
-  max-width: 600px;
+  border: 1px solid #dadde1;
 }
 .githubLink {
   bottom: 100px;
