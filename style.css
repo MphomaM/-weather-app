@@ -71,8 +71,6 @@ li {
   top: 220px;
   right: -20px;
   transition: all 250ms ease-in-out;
-  border: 2px solid brown;
-  padding: 60px;
 }
 .col-2:hover {
   font-size: 20px;
